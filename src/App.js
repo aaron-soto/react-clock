@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { FlipClock } from './components/clock/FlipClock';
+import Moment from 'react-moment';
+import { Timer } from './components/timer/Timer';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const date = new Date();
+
+	return (
+		<div className='App'>
+			<Moment format='ddd MMM DD, YYYY'>{date}</Moment>
+			<FlipClock />
+			<Timer />
+		</div>
+	);
 }
 
 export default App;

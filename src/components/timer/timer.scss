@@ -1,0 +1,33 @@
+@import '../../styles/variables';
+
+.stopwatch-card {
+	text-align: center;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+
+	p {
+		font-size: 32px;
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+
+	button {
+		border: none;
+		background-color: darken($black, 20);
+		padding: 0.7rem 1.3rem;
+		margin: 0 10px;
+		cursor: pointer;
+		transition: all 0.3s ease-in-out;
+		font-weight: 600;
+
+		&:hover {
+			background-color: lighten($black, 20);
+		}
+	}
+}

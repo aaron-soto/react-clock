@@ -1,0 +1,24 @@
+@import './variables';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #000000;
+	color: $black;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+time {
+	text-align: center;
+	width: 100%;
+	display: block;
+	padding: 1rem;
+}
