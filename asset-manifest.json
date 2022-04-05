@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/aaron-soto/react-clock/static/css/main.90c35d25.css",
+    "main.js": "/aaron-soto/react-clock/static/js/main.20560375.js",
+    "index.html": "/aaron-soto/react-clock/index.html",
+    "main.90c35d25.css.map": "/aaron-soto/react-clock/static/css/main.90c35d25.css.map",
+    "main.20560375.js.map": "/aaron-soto/react-clock/static/js/main.20560375.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90c35d25.css",
+    "static/js/main.20560375.js"
+  ]
+}
