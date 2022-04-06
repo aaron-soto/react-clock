@@ -31,3 +31,32 @@
 		}
 	}
 }
+
+.times {
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+	display: flex;
+	flex-direction: column;
+
+	p {
+		span {
+			display: inline-block;
+			width: 50px;
+		}
+	}
+}
+
+.hide-ui {
+	height: 40px;
+	width: 40px;
+	background-color: darken($blue, 55);
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 32px;
+	color: #292929;
+}

@@ -3,6 +3,10 @@ import { FlipUnitContainer } from './FlipUnitContainer';
 
 import './clock.scss';
 
+// TODO
+// Add buttons to increment time.
+// Add time tracker for week
+
 export class FlipClock extends React.Component {
 	constructor(props) {
 		super(props);
