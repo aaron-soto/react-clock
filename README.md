@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# React Flip Clock Time Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Working in a company that needs you to track time while doing your work is by no means a hard task. But having a tool to make it easier definitely helps your work flow. This tool speeds up my time tracking process every week.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [Description](#description)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The company that I currently work for has us keep track of our time and submit it each week so that they know what to charge the clients we work with. I keep an Ipad as a display on my desk and created this site to show the current time in a visually appealing flip clock look. There is also functionality to start a work timer for each day. When you are dont working for the day you can submit the time and it saves to local storage to display all week. So at the end of the week I can go back through and see my times.
 
-### `npm test`
+### Screenshot
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![screenshot](./src/assets/images/react-clock.png)
 
-### `npm run build`
+### Links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Live Site URL: [https://aaron-soto.github.io/react-clock/](https://aaron-soto.github.io/react-clock/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## My process
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built with
 
-### `npm run eject`
+- [React](https://reactjs.org/) - JS library
+- [MomentJs](https://momentjs.com/) - JS library
+- SCSS with custom mixins and variables
+- useState, useEffect hooks
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### What I learned
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project helps with the understanding of date objects as well as localStorage usage. I also applied some new SCSS techniques that helped speed up my workflow.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Useful resources
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [Moment Js Docs](https://momentjs.com/docs/) - formatting time so that it is user friendly is not always an easy task but good documentation really helps.
 
-## Learn More
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website - [Aaron Soto](https://aaronsoto.io)
+- Github - [@aaron-soto](https://github.com/aaron-soto)
+- Linkedin - [@aaron-soto1](https://www.linkedin.com/in/aaron-soto1/)
